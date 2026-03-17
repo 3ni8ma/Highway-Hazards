@@ -1,0 +1,30 @@
+{
+    "name": "HighScore",
+    "type": "object",
+    "properties": {
+      "player_name": {
+        "type": "string",
+        "description": "Player's display name"
+      },
+      "score": {
+        "type": "number",
+        "description": "Final score achieved"
+      },
+      "distance": {
+        "type": "number",
+        "description": "Distance traveled in meters"
+      },
+      "coins_collected": {
+        "type": "number",
+        "description": "Total coins collected"
+      },
+      "survival_time": {
+        "type": "number",
+        "description": "Time survived in seconds"
+      }
+    },
+    "required": [
+      "player_name",
+      "score"
+    ]
+  }
